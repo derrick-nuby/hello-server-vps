@@ -3,7 +3,7 @@ services:
     image: ghcr.io/derrick-nuby/hello-server-vps:prod
     container_name: hello-server-vps
     ports:
-      - "3000:3000"
+      - "3111:3000"
     environment:
       environment: "production"
     restart: unless-stopped
