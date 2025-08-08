@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
-  assetPrefix: "/web",
-  basePath: "/web/"
+  // output: "standalone",
+  assetsPrefix: "/web",
+  basePath: "/web",
+  webpack: (config) => { },
+
 };
 
 export default nextConfig;
